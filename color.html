@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>表現力の芸術：色彩の心理効果</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;family=Noto+Sans+JP:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f9b8f9",
+                        "secondary": "#a0e7e5",
+                        "background-light": "#fff0f5",
+                        "background-dark": "#221022",
+                        "surface-light": "#fdf5f9",
+                        "surface-dark": "#2a1c2a"
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "Noto Sans JP", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Plus Jakarta Sans', 'Noto Sans JP', 'sans-serif';
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#1b0d1b] dark:text-[#f3e7f3] transition-colors duration-300">
+<div class="relative flex h-auto min-h-screen w-full flex-col font-display group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="flex flex-1 justify-center py-5 sm:px-10 md:px-20 lg:px-40">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-primary/20 dark:border-[#3a2f3a] px-4 sm:px-10 py-3 sticky top-0 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm z-50">
+<div class="flex items-center gap-4 text-[#1b0d1b] dark:text-[#fcf8fc]">
+<div class="size-6 text-[#9a4c9a] dark:text-primary">
+<svg fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z"></path>
+</svg>
+</div>
+<h2 class="text-[#1b0d1b] dark:text-[#fcf8fc] text-lg font-bold leading-tight tracking-[-0.015em]">表現力の芸術</h2>
+</div>
+<div class="flex flex-1 justify-end items-center gap-4 sm:gap-8">
+<nav class="hidden sm:flex items-center gap-6 md:gap-9">
+<a class="text-[#1b0d1b] dark:text-[#f3e7f3] hover:text-[#9a4c9a] dark:hover:text-primary text-sm font-medium leading-normal transition-colors" href="#">作家紹介</a>
+<a class="text-[#1b0d1b] dark:text-[#f3e7f3] hover:text-[#9a4c9a] dark:hover:text-primary text-sm font-medium leading-normal transition-colors" href="#">ギャラリー</a>
+</nav>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-primary text-[#1b0d1b] text-sm font-bold leading-normal tracking-[0.015em] hover:opacity-90 transition-opacity">
+<span class="truncate">購読する</span>
+</button>
+</div>
+</header>
+<nav class="w-full border-b border-primary/20 dark:border-[#3a2f3a] bg-surface-light/80 dark:bg-background-dark/50">
+<div class="overflow-x-auto">
+<div class="flex items-center justify-start gap-2 px-4 sm:px-10 py-2 whitespace-nowrap">
+<a class="px-3 py-2 text-sm font-medium rounded-lg hover:bg-secondary/40 dark:hover:bg-secondary/30 transition-colors text-[#644464] dark:text-[#c4a9c4]" href="#">トップページ</a>
+<a class="px-3 py-2 text-sm font-medium rounded-lg hover:bg-secondary/40 dark:hover:bg-secondary/30 transition-colors text-[#644464] dark:text-[#c4a9c4]" href="#">味覚</a>
+<a aria-current="page" class="px-3 py-2 text-sm font-bold rounded-lg transition-colors bg-secondary/60 dark:bg-secondary/50 text-[#00605d] dark:text-secondary" href="#">色彩</a>
+<a class="px-3 py-2 text-sm font-medium rounded-lg hover:bg-secondary/40 dark:hover:bg-secondary/30 transition-colors text-[#644464] dark:text-[#c4a9c4]" href="#">香り</a>
+<a class="px-3 py-2 text-sm font-medium rounded-lg hover:bg-secondary/40 dark:hover:bg-secondary/30 transition-colors text-[#644464] dark:text-[#c4a9c4]" href="#">容姿</a>
+<a class="px-3 py-2 text-sm font-medium rounded-lg hover:bg-secondary/40 dark:hover:bg-secondary/30 transition-colors text-[#644464] dark:text-[#c4a9c4]" href="#">音</a>
+<a class="px-3 py-2 text-sm font-medium rounded-lg hover:bg-secondary/40 dark:hover:bg-secondary/30 transition-colors text-[#644464] dark:text-[#c4a9c4]" href="#">手触り</a>
+<a class="px-3 py-2 text-sm font-medium rounded-lg hover:bg-secondary/40 dark:hover:bg-secondary/30 transition-colors text-[#644464] dark:text-[#c4a9c4]" href="#">光と影</a>
+<a class="px-3 py-2 text-sm font-medium rounded-lg hover:bg-secondary/40 dark:hover:bg-secondary/30 transition-colors text-[#644464] dark:text-[#c4a9c4]" href="#">時間と空間</a>
+</div>
+</div>
+</nav>
+<main class="flex flex-col gap-12 md:gap-16">
+<div class="@container mt-5">
+<div class="p-0 @[480px]:p-4">
+<div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4" data-alt="Abstract pastel gradient background with soft color transitions" style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDFvDldft8uSIyBgbiUTQaiDExHz2mCaff4LPQqzEHfsqKCe93l26e5noRH5wb4Eke4GfHJUFqG7TvlNFT8mQKRK62-14YfNhmTOYccFbnC1XhYxjnR7ihVLwx6u7c6JIx7TSmKWK_mLc4vBMcqCV7FC18dXVn4kJcPHItsHTD6FFZPCjfqmlM-5YLpAhrUDR3aQS25G8JKwSWG1-u1kw4pkY_8yTzHES3p9XYFLuMrz8GMSgTP8x3V9dvXgkIt3vNVx75pyIAoPEw");'>
+<div class="flex flex-col gap-4 text-center">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+                                            色が心を動かすとき
+                                        </h1>
+<p class="text-white/90 text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal max-w-xl mx-auto">
+                                            色彩が感情や情景に与える影響を、アートと文学の世界から探求します。
+                                        </p>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-[#1b0d1b] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] hover:opacity-90 transition-opacity">
+<span class="truncate">探求を始める</span>
+</button>
+</div>
+</div>
+</div>
+<section>
+<div class="flex flex-col gap-4">
+<h2 class="text-[#1b0d1b] dark:text-[#f3e7f3] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5 border-b border-primary/20 dark:border-[#3a2f3a]">暖色系：情熱とエネルギー</h2>
+<div class="flex gap-3 p-3 flex-wrap pr-4">
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-primary/20 dark:bg-primary/30 pl-4 pr-4">
+<p class="text-[#1b0d1b] dark:text-[#fcf8fc] text-sm font-medium leading-normal">暖かさ</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-primary/20 dark:bg-primary/30 pl-4 pr-4">
+<p class="text-[#1b0d1b] dark:text-[#fcf8fc] text-sm font-medium leading-normal">エネルギー</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-primary/20 dark:bg-primary/30 pl-4 pr-4">
+<p class="text-[#1b0d1b] dark:text-[#fcf8fc] text-sm font-medium leading-normal">高揚感</p>
+</div>
+</div>
+<div class="p-4 @container">
+<div class="flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start shadow-[0_0_4px_rgba(0,0,0,0.1)] bg-surface-light dark:bg-surface-dark">
+<div class="w-full @xl:w-2/5 aspect-video @xl:aspect-square bg-center bg-no-repeat bg-cover rounded-t-xl @xl:rounded-l-xl @xl:rounded-tr-none" data-alt="Vincent van Gogh's Sunflowers painting with vibrant yellow flowers in a vase." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDtZ70z7VjK-w8rgYdgynIq_m2FEsc9GZ-kCKcucbgZgn9t-FlbVP6kZuvNSb5sxMs3JrZzWCsVu1Gj61hZwi2XqQ4c-E2dwR65YhKmYssRa-o2eK2MZdNvUno11cjR0a-5icC5DI1PGeL-1fLOSFz1NZOIdmdeTNOPZ_Px9fob4-_qPnmHcedDd2fQEkr6hhOl88G16ohYz-xo88ZiKNuKyUbcGryrCZTWaVPzF53gXmXG7shwdoppKDJ5I5u7WSJAbBMobTbTC28");'></div>
+<div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-2 p-4 @xl:p-6">
+<p class="text-[#1b0d1b] dark:text-[#fcf8fc] text-lg font-bold leading-tight tracking-[-0.015em]">ゴッホの『ひまわり』</p>
+<div class="flex flex-col gap-2">
+<p class="text-[#644464] dark:text-[#c4a9c4] text-base font-normal leading-relaxed">
+                                                    太陽の光を一身に浴びるひまわりは、生命力と情熱の象徴です。ゴッホが用いた鮮やかな黄色は、見る者の心に強烈なエネルギーと高揚感をもたらします。
+                                                </p>
+<p class="text-[#9a4c9a] dark:text-primary text-sm font-medium leading-normal pt-2">フィンセント・ファン・ゴッホ</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class="flex flex-col gap-4">
+<h2 class="text-[#1b0d1b] dark:text-[#f3e7f3] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5 border-b border-primary/20 dark:border-[#3a2f3a]">寒色系：静寂と憂鬱</h2>
+<div class="flex gap-3 p-3 flex-wrap pr-4">
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-primary/20 dark:bg-primary/30 pl-4 pr-4">
+<p class="text-[#1b0d1b] dark:text-[#fcf8fc] text-sm font-medium leading-normal">静寂</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-primary/20 dark:bg-primary/30 pl-4 pr-4">
+<p class="text-[#1b0d1b] dark:text-[#fcf8fc] text-sm font-medium leading-normal">落ち着き</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-primary/20 dark:bg-primary/30 pl-4 pr-4">
+<p class="text-[#1b0d1b] dark:text-[#fcf8fc] text-sm font-medium leading-normal">寂しさ</p>
+</div>
+</div>
+<div class="p-4 @container">
+<div class="flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start shadow-[0_0_4px_rgba(0,0,0,0.1)] bg-surface-light dark:bg-surface-dark">
+<div class="w-full @xl:w-2/5 aspect-video @xl:aspect-square bg-center bg-no-repeat bg-cover rounded-t-xl @xl:rounded-l-xl @xl:rounded-tr-none" data-alt="A serene, snowy landscape with blue and white tones, evoking a sense of calm and cold." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAnTMb1rxwY5wGZZgJVkSvTD8USydNKETc3bhbDbwb9zfVk8CGkyq78SuTgZJoVQGQqpix5rMTCuLf77wF4yN6JRbVxU7nXFOkaWFWE2qsW9DOPlGNVDuHupa5GSKt26cv_l-szpjnIMkOgaFrBzXCMCVxzdefv_zZ1PxJS-PVlxRd8jeaHlsyLa66WjCBvxdw18laWNXk09afE2XaKhqq6Fz8x8gS2l6sTMozIgDDZ_HGHcCGIacY5YhuWBH6oRmi7cCtZX938uEQ");'></div>
+<div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-4 p-4 @xl:p-6">
+<p class="text-[#1b0d1b] dark:text-[#fcf8fc] text-lg font-bold leading-tight tracking-[-0.015em]">川端康成の『雪国』</p>
+<blockquote class="border-l-4 border-primary/50 pl-4">
+<p class="text-[#644464] dark:text-[#c4a9c4] text-base font-normal leading-relaxed italic">
+                                                    「国境の長いトンネルを抜けると雪国であった。夜の底が白くなった。」
+                                                </p>
+</blockquote>
+<div class="flex flex-col gap-2">
+<p class="text-[#644464] dark:text-[#c4a9c4] text-base font-normal leading-relaxed">
+                                                    白と青で描かれる雪景色は、静寂と同時に底知れぬ寂寥感を呼び起こします。寒色は、内省的な気持ちや落ち着きをもたらす効果があります。
+                                                </p>
+<p class="text-[#9a4c9a] dark:text-primary text-sm font-medium leading-normal pt-2">川端康成</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class="flex flex-col gap-4">
+<h2 class="text-[#1b0d1b] dark:text-[#f3e7f3] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5 border-b border-primary/20 dark:border-[#3a2f3a]">中間色：神秘と優しさ</h2>
+<div class="flex gap-3 p-3 flex-wrap pr-4">
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-primary/20 dark:bg-primary/30 pl-4 pr-4">
+<p class="text-[#1b0d1b] dark:text-[#fcf8fc] text-sm font-medium leading-normal">神秘</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-primary/20 dark:bg-primary/30 pl-4 pr-4">
+<p class="text-[#1b0d1b] dark:text-[#fcf8fc] text-sm font-medium leading-normal">優しさ</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-primary/20 dark:bg-primary/30 pl-4 pr-4">
+<p class="text-[#1b0d1b] dark:text-[#fcf8fc] text-sm font-medium leading-normal">繊細</p>
+</div>
+</div>
+<div class="p-4 @container">
+<div class="flex flex-col items-stretch justify-start rounded-xl @xl:flex-row-reverse @xl:items-start shadow-[0_0_4px_rgba(0,0,0,0.1)] bg-surface-light dark:bg-surface-dark">
+<div class="w-full @xl:w-2/5 aspect-video @xl:aspect-square bg-center bg-no-repeat bg-cover rounded-t-xl @xl:rounded-r-xl @xl:rounded-tl-none" data-alt="Dreamy, abstract image with swirls of lavender and baby pink, creating a gentle and mysterious atmosphere." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDR1iOr0R4woG5KHZcM3_HzVvY9b6JLbo_4Jhed2eMT0KitjKV1Pq-Bj7scJMrKhZcRcCMJHpQ4GgbU8Q-rulY5jAeOuAjvF_Y1ROkrjgTV-6V5nKXHJ2nXE-b4Fawvff9IxuJHOvlqk0jCZbdATUpGi0K0fZRmsA3bGM1j0sOWAtJ6A0I003DyunkGGNut3z9Tqj0SOQyv-QheZ12M7jOM8qpRgnccErFRmTy7jdNylnqK9xDV4dSXTNq7GGvKgTmXt-kIYUoTfFw");'></div>
+<div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-2 p-4 @xl:p-6">
+<p class="text-[#1b0d1b] dark:text-[#fcf8fc] text-lg font-bold leading-tight tracking-[-0.015em]">モネの『睡蓮』</p>
+<div class="flex flex-col gap-2">
+<p class="text-[#644464] dark:text-[#c4a9c4] text-base font-normal leading-relaxed">
+                                                    紫やピンクといった中間色は、暖色と寒色の両方の性質を持ち合わせ、複雑で繊細な感情を表現します。モネが描く睡蓮の池は、光の加減で移ろう色彩が幻想的で、見る者を夢の世界へと誘います。
+                                                </p>
+<p class="text-[#9a4c9a] dark:text-primary text-sm font-medium leading-normal pt-2">クロード・モネ</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="p-4 sm:p-8 my-10 bg-primary/10 dark:bg-primary/20 rounded-xl text-center">
+<div class="flex flex-col items-center gap-4">
+<span class="material-symbols-outlined text-4xl text-[#9a4c9a] dark:text-primary">palette</span>
+<h3 class="text-xl font-bold text-[#1b0d1b] dark:text-white">あなたのお気に入りの色は？</h3>
+<p class="text-[#644464] dark:text-[#c4a9c4] max-w-lg">色を選ぶと、その色に関連するアート作品や文学の一節が浮かび上がります。あなたの感性がどの世界と繋がるか、試してみましょう。</p>
+<div class="flex flex-wrap justify-center gap-4 mt-4">
+<button class="size-12 rounded-full bg-[#ffb3ba] hover:scale-110 transition-transform" data-alt="Red color swatch"></button>
+<button class="size-12 rounded-full bg-[#ffdfba] hover:scale-110 transition-transform" data-alt="Yellow color swatch"></button>
+<button class="size-12 rounded-full bg-[#baffc9] hover:scale-110 transition-transform" data-alt="Green color swatch"></button>
+<button class="size-12 rounded-full bg-[#bae1ff] hover:scale-110 transition-transform" data-alt="Blue color swatch"></button>
+<button class="size-12 rounded-full bg-[#f9b8f9] hover:scale-110 transition-transform" data-alt="Pink color swatch"></button>
+<button class="size-12 rounded-full bg-[#d1baff] hover:scale-110 transition-transform" data-alt="Purple color swatch"></button>
+</div>
+</div>
+</section>
+</main>
+<footer class="mt-16 border-t border-primary/20 dark:border-[#3a2f3a] py-8 px-4 sm:px-10">
+<div class="flex flex-col sm:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-4 text-[#1b0d1b] dark:text-[#fcf8fc]">
+<div class="size-5 text-[#9a4c9a] dark:text-primary">
+<svg fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z"></path>
+</svg>
+</div>
+<h2 class="text-[#1b0d1b] dark:text-[#fcf8fc] text-lg font-bold leading-tight tracking-[-0.015em]">表現力の芸術</h2>
+</div>
+<nav class="flex flex-wrap justify-center gap-x-6 gap-y-2">
+<a class="text-[#644464] dark:text-[#c4a9c4] hover:text-[#1b0d1b] dark:hover:text-white text-sm font-medium leading-normal transition-colors" href="#">プライバシーポリシー</a>
+<a class="text-[#644464] dark:text-[#c4a9c4] hover:text-[#1b0d1b] dark:hover:text-white text-sm font-medium leading-normal transition-colors" href="#">利用規約</a>
+<a class="text-[#644464] dark:text-[#c4a9c4] hover:text-[#1b0d1b] dark:hover:text-white text-sm font-medium leading-normal transition-colors" href="#">お問い合わせ</a>
+</nav>
+<p class="text-sm text-[#9a4c9a] dark:text-[#c4a9c4]">© 2024 Art of Expression. All rights reserved.</p>
+</div>
+</footer>
+</div>
+</div>
+</div>
+</div>
+
+</body></html>

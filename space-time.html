@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html class="light" lang="ja"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>表現力の芸術：時間と空間の探求</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Noto+Sans+JP:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#99f042",
+            "background-light": "#f0f8ff", // Alice Blue - a very light pastel blue
+            "background-dark": "#192210",
+            "pastel-green": "#A8D8B9",
+            "pastel-yellow": "#FDFD96",
+            "soft-lavender": "#C8A2C8",
+            "charcoal-gray": "#36454F",
+            "pastel-pink": "#FFF0F5", // Lavender Blush - for card backgrounds
+          },
+          fontFamily: {
+            "display": ["Newsreader", "serif"],
+            "sans": ["Noto Sans JP", "sans-serif"]
+          },
+          borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6, .font-display {
+      font-family: 'Newsreader', serif;
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-charcoal-gray dark:text-gray-200">
+<div class="relative w-full flex flex-col items-center">
+<div class="w-full max-w-5xl px-4 md:px-8">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200 dark:border-gray-700 py-4">
+<div class="flex items-center gap-3">
+<div class="size-6 text-primary">
+<svg fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z"></path>
+</svg>
+</div>
+<h2 class="font-display text-xl font-bold tracking-tight text-charcoal-gray dark:text-gray-100">表現力の芸術</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary" href="#">時間と空間</a>
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary" href="#">五感の世界</a>
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary" href="#">情景の描写</a>
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary" href="#">作家紹介</a>
+</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-5 bg-primary text-background-dark text-sm font-bold tracking-wide">
+<span class="truncate">お問い合わせ</span>
+</button>
+</div>
+<button class="md:hidden p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</header>
+<main class="flex flex-col gap-16 md:gap-24 py-16 md:py-24">
+<section class="flex flex-col items-center justify-center text-center gap-6 rounded-xl bg-pastel-yellow/50 dark:bg-pastel-yellow/10 min-h-[60vh] p-8 relative overflow-hidden">
+<div class="absolute inset-0 z-0 opacity-20" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAt8tIid2iN6oo7kINuCwQ3aWdLB2sSi_ANed3XU_oTSbSMHD0LTIuX7lfeJMjabORtit3b0i7nbeJXTSUmsqnnUULGdui6Ju7qppo9h0SweV1_ziqqqVXAwk5NN69ko9xpeS_YKC9kVho56U9LbJw-ZmhDcGoWJ4eFvU9o7TOc86BMOd8FwrUcZNwKGLHdYXSFjpAbfWvXJvt70C_rvC8zmC69I8lh5bGvMrMk2p-nrdYifrz3FaYqA6qOQt3h7-rPBIPBWFSkK2U');"></div>
+<div class="relative z-10 flex flex-col items-center gap-6">
+<h1 class="text-charcoal-gray dark:text-white text-5xl md:text-7xl font-bold leading-tight font-display tracking-tighter">
+              物語の次元を旅する
+            </h1>
+<h2 class="text-charcoal-gray/80 dark:text-gray-300 text-lg md:text-xl max-w-3xl font-sans">
+              作家がいかにして時間と空間を操り、物語の感情、象徴、そして深層を形作るかを探ります。
+            </h2>
+<button class="mt-4 flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-6 bg-primary text-background-dark text-base font-bold tracking-wide shadow-lg hover:shadow-xl transition-shadow">
+<span class="truncate">探求を始める</span>
+</button>
+</div>
+</section>
+<section>
+<div class="flex flex-col items-center text-center">
+<span class="material-symbols-outlined text-4xl text-pastel-green mb-2">hourglass_empty</span>
+<h2 class="text-3xl md:text-4xl font-bold leading-tight tracking-tight font-display">時間の象徴性</h2>
+<p class="mt-4 max-w-2xl text-base leading-relaxed">
+              文学において、時間は直線的に進むとは限りません。歪められ、繰り返され、あるいは静止することで、登場人物の内的世界や物語のテーマを映し出します。
+            </p>
+</div>
+<div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+<div class="p-4 md:p-0">
+<div class="bg-cover bg-center flex flex-col items-stretch justify-end rounded-xl pt-[132px] min-h-[400px]" data-alt="An abstract, dreamlike image of a melting clock in a surreal landscape." style="background-image: linear-gradient(0deg, rgba(54, 69, 79, 0.6) 0%, rgba(54, 69, 79, 0) 100%), url('https://lh3.googleusercontent.com/aida-public/AB6AXuAAKZeU1oCGUfdPnlmwConfi_RsBS7DoSjl-B9LR0TmfduWqH7qwhTx4KOg99W4vKS69DJlMukmvQYQnMZpfPZ1P2kpvcmEqiCBwBCDr5J0PcZpo-iX6hix_iQlHF87vSIdH-0lul4jma26JkFUMHpQAcw5B-q7_sm-93-3XCWG40pMvQFAWDwLgadJsc9LzEgxnJ9hTNUfXI0EqEkPfnPpHkKY9GK1caRB2_vYzK1DfWrEOYICZlnr-77CL4zO8_LsoTQpxZrZ2g0');">
+<div class="flex w-full items-end justify-between gap-4 p-6">
+<div class="flex max-w-[440px] flex-1 flex-col gap-1 text-white">
+<p class="text-sm font-normal leading-normal font-sans">時間はもっとも融通のきくものです</p>
+<p class="font-display tracking-light text-2xl font-bold leading-tight max-w-[440px]">「世界の終りとハードボイルド・ワンダーランド」</p>
+<p class="text-base font-medium leading-normal">— 村上春樹</p>
+</div>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-6">
+<div class="bg-pastel-pink dark:bg-background-dark/50 border border-gray-200 dark:border-gray-700 p-6 rounded-lg">
+<h3 class="font-display text-xl font-bold">非線形の時間</h3>
+<p class="mt-2 text-sm leading-6">村上春樹の作品では、過去と現在が交錯し、登場人物は時間の中を彷徨います。これは現実の不確かさや記憶の曖昧さを象徴しています。</p>
+</div>
+<div class="bg-pastel-pink dark:bg-background-dark/50 border border-gray-200 dark:border-gray-700 p-6 rounded-lg">
+<h3 class="font-display text-xl font-bold">ループする時間</h3>
+<p class="mt-2 text-sm leading-6">物語が同じ時点を繰り返すことで、登場人物が抱える葛藤や運命からの脱出不可能性を強調します。</p>
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class="flex flex-col items-center text-center">
+<span class="material-symbols-outlined text-4xl text-soft-lavender mb-2">fullscreen</span>
+<h2 class="text-3xl md:text-4xl font-bold leading-tight tracking-tight font-display">空間の心理学</h2>
+<p class="mt-4 max-w-2xl text-base leading-relaxed">
+              物語の舞台となる空間は、単なる背景ではありません。広大な空間は解放感を、閉鎖的な空間は圧迫感や疎外感を与え、登場人物の心理状態を巧みに描写します。
+            </p>
+</div>
+<div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+<div class="flex flex-col gap-6 md:order-2">
+<div class="bg-pastel-pink dark:bg-background-dark/50 border border-gray-200 dark:border-gray-700 p-6 rounded-lg">
+<h3 class="font-display text-xl font-bold">閉塞感の迷宮</h3>
+<p class="mt-2 text-sm leading-6">カフカの描く迷路のような役所や狭い部屋は、社会の不条理さや個人の無力感を象徴し、読者に息苦しさを感じさせます。</p>
+</div>
+<div class="bg-pastel-pink dark:bg-background-dark/50 border border-gray-200 dark:border-gray-700 p-6 rounded-lg">
+<h3 class="font-display text-xl font-bold">無限の広がり</h3>
+<p class="mt-2 text-sm leading-6">対照的に、果てしない平原や海は、自由への渇望や可能性の象徴として描かれ、物語にスケールと解放感をもたらします。</p>
+</div>
+</div>
+<div class="p-4 md:p-0 md:order-1">
+<div class="bg-cover bg-center flex flex-col items-stretch justify-end rounded-xl pt-[132px] min-h-[400px]" data-alt="A dark, abstract image of a long, narrow hallway, evoking a sense of confinement." style="background-image: linear-gradient(0deg, rgba(54, 69, 79, 0.6) 0%, rgba(54, 69, 79, 0) 100%), url('https://lh3.googleusercontent.com/aida-public/AB6AXuABWVOQzVBe6qpOthxoLLKe0YFUJgZ2hc-Hu7xb47Q3AVN9OVZa14m_3PddEG_8Q1YoYXRxd-Cvx0fudYvyAmAycY__4xdIlvsH0rQ7VB3B9dD_UU1phwEHDbUO9_kxKPXnQIxV8q3aefeg0qNU-cGYh5WvYonJFTi7u-a_ifhzFCUihbkR1VyWNRsXTQZ6yfD_kaxCnwqyA1ZYstH7nwIED36U4xHDHO41-urdgAujY94bSFCbqILoc9zg22oxDz4NEI6tMJLIW0o');">
+<div class="flex w-full items-end justify-between gap-4 p-6">
+<div class="flex max-w-[440px] flex-1 flex-col gap-1 text-white">
+<p class="text-sm font-normal leading-normal font-sans">どこかに出口があるはずなのに、見つからない</p>
+<p class="font-display tracking-light text-2xl font-bold leading-tight max-w-[440px]">「城」</p>
+<p class="text-base font-medium leading-normal">— フランツ・カフカ</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="rounded-xl bg-pastel-green/30 dark:bg-pastel-green/10 p-8 md:p-12 text-center">
+<h2 class="text-3xl font-bold leading-tight tracking-tight font-display">時空が織りなす多層世界</h2>
+<p class="mt-4 max-w-3xl mx-auto text-base leading-relaxed">
+            時間と空間は、物語に深みと奥行きを与える不可欠な要素です。作家たちはこれらを巧みに操ることで、読者を現実とは異なる次元へと誘い、忘れられない体験を創り出すのです。
+          </p>
+<button class="mt-8 flex mx-auto min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-6 bg-charcoal-gray text-white dark:bg-gray-200 dark:text-charcoal-gray text-base font-bold tracking-wide shadow-lg hover:shadow-xl transition-shadow">
+<span class="truncate">他のテーマを探る</span>
+</button>
+</section>
+</main>
+</div>
+<footer class="w-full bg-charcoal-gray/90 dark:bg-black/50 text-white mt-16">
+<div class="w-full max-w-5xl mx-auto px-4 md:px-8 py-12">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-3">
+<div class="size-6 text-primary">
+<svg fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z"></path>
+</svg>
+</div>
+<h2 class="font-display text-xl font-bold tracking-tight">表現力の芸術</h2>
+</div>
+<div class="flex items-center gap-6 text-sm">
+<a class="hover:text-primary" href="#">プライバシーポリシー</a>
+<a class="hover:text-primary" href="#">利用規約</a>
+<a class="hover:text-primary" href="#">お問い合わせ</a>
+</div>
+</div>
+<div class="mt-8 pt-8 border-t border-gray-500/50 text-center text-xs text-gray-400">
+<p>© 2024 表現力の芸術. All Rights Reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
